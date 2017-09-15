@@ -78,7 +78,6 @@ def parse_and_calculate(first, operation, second):
         'по модулю': '%'
     }
     def parse_number(number):
-        print(number)
         return "{integer}{dot}{fractional}".format(integer=numbers.get(number[0], number[0]), dot = "." if number[1] != "" else "", fractional=numbers.get(number[2], number[2]))
 
 

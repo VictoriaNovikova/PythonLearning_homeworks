@@ -4,7 +4,7 @@ import logging
 import datetime
 from dateutil.parser import parse
 import re
-from Constellation import Constellation
+from constellation import Constellation
 
 logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
